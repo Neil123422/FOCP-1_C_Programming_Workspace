@@ -1,4 +1,4 @@
-# Assignment-1-FOCP-I-
+# Assignments-FOCP-I-
 Neil Dixit - 26CSU404 
 B.Tech CSE-G (CS-14)
-Assignment-1 on applications of C programming 
+Assignments on applications of C programming 
