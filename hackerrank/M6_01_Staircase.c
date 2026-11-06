@@ -11,7 +11,7 @@ void staircase(int n) {
     }
 }
 
-/* ---------- LOCAL TEST ONLY (VS Code): delete everything below this line when submitting to the online judge ---------- */
+
 int main(void) {
     int n;
     scanf("%d", &n);

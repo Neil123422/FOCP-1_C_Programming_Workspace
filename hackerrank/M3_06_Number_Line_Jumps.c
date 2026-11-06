@@ -13,7 +13,7 @@ char* kangaroo(int x1, int v1, int x2, int v2) {
     return "NO";
 }
 
-/* ---------- LOCAL TEST ONLY (VS Code): delete everything below this line when submitting to the online judge ---------- */
+
 int main(void) {
     int x1, v1, x2, v2;
     scanf("%d %d %d %d", &x1, &v1, &x2, &v2);

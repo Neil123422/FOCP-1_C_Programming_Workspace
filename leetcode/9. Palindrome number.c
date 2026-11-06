@@ -14,7 +14,7 @@ bool isPalindrome(int x) {
     return rev == original;
 }
 
-/* ---------- LOCAL TEST ONLY (VS Code): delete everything below this line when submitting to the online judge ---------- */
+
 int main(void) {
     int x;
     scanf("%d", &x);

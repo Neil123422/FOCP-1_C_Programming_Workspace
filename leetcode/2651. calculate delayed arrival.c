@@ -7,7 +7,7 @@ int findDelayedArrivalTime(int arrivalTime, int delayedTime) {
     return (arrivalTime + delayedTime) % 24;
 }
 
-/* ---------- LOCAL TEST ONLY (VS Code): delete everything below this line when submitting to the online judge ---------- */
+
 int main(void) {
     int arrival, delay;
     scanf("%d %d", &arrival, &delay);
