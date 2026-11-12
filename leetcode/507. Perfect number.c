@@ -16,7 +16,7 @@ bool checkPerfectNumber(int num) {
     return sum == num;
 }
 
-/* ---------- LOCAL TEST ONLY (VS Code): delete everything below this line when submitting to the online judge ---------- */
+
 int main(void) {
     int num;
     scanf("%d", &num);
