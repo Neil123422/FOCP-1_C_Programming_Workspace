@@ -1,5 +1,5 @@
 /* HackerRank - Grading Students
- * Submit: only the gradingStudents() function (HackerRank supplies main and I/O).
+ * Submit: only the gradingStudents() function.
  */
 #include <stdio.h>
 #include <stdlib.h>
