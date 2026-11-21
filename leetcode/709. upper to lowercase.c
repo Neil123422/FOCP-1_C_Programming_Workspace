@@ -1,22 +1,18 @@
 #include <stdio.h>
+#include <string.h>
+
 char* toLowerCase(char* s) {
-    for (int i = 0; i<s[i]!='\0'; i++) {
+    for (int i = 0; s[i] != '\0'; i++) {
         if (s[i] >= 'A' && s[i] <= 'Z') {
-            s[i] = s[i] + 32;
+            s[i] = (char)(s[i] + ('a' - 'A'));
         }
     }
-
     return s;
 }
 
 int main(void) {
     char text[1000];
-
-    printf("Enter a string: ");
-    fgets(text, sizeof(text), stdin);
-
-    toLowerCase(text);
-    printf("Lowercase: %s", text);
-
+    scanf("%999s", text);
+    printf("%s\n", toLowerCase(text));
     return 0;
 }

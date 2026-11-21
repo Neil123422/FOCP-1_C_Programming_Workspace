@@ -1,17 +1,17 @@
 #include <stdio.h>
-int lengthOfLastWord(char* s) {
-int count = 0,i=strlen(s)-1 ; 
-while (s[i]==32)
-    i--; 
-for (;i>=0;i--)
-{
-    if (s[i]!=32)  //32 is the ASCII value for space/tab; 
+#include <string.h>
 
-    count ++; 
-    else if (s[i]==32)
-    return count; 
-}  
-    return count; 
+int lengthOfLastWord(char* s) {
+    int length = (int)strlen(s);
+    int i = length - 1;
+    while (i >= 0 && s[i] == ' ') i--;
+
+    int count = 0;
+    while (i >= 0 && s[i] != ' ') {
+        count++;
+        i--;
+    }
+    return count;
 }
 int main(void) {
     char sentence[1000] = {0};
